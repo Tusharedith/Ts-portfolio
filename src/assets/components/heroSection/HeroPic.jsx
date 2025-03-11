@@ -11,7 +11,7 @@ const HeroPic = () => {
           whileInView='show'
           viewport={{ once: false,amount: 0}}
     className="h-full flex items-center justify-center py-10">
-      <img src="../../public/images/Untitled design.png" alt = "Tushar Swarnkar" className="max-h-[430px] w-auto rounded-full"/>
+      <img src="/images/Untitled design.png" alt = "Tushar Swarnkar" className="max-h-[430px] w-auto rounded-full"/>
       <div className=" absolute -z-10 flex justify-center items-center animate-pulse">
       <FaRegCircle className ="md:h-[90%] sm:h-[120%] min-h-[500px] w-auto text-cyan blur-md animate-[spin_20s_linear_infinite]"/>
       </div>

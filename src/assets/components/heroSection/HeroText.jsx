@@ -26,6 +26,12 @@ const HeroText = () => {
        className ="text-lg mt-4 text-white">
        A passionate AI-driven developer with a sharp eye for design and <br/>love for crafting intelligent digital experiences.
       </motion.p>
+      <button
+      onClick={() => window.open('/images/Tushar_Swarnkar.pdf', '_blank')}
+      className="border border-orange rounded-full py-2 px-4 text-lg flex items-center mt-1 hover:bg-orange transition-all duration-400 cursor-pointer md:self-start sm:self-center text-white hover:text-black mx-0">
+      Get Resume
+      </button>
+
     </div>
   )
 }
